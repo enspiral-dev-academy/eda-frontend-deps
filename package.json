@@ -29,7 +29,7 @@
   ],
   "jest": {
     "verbose": true,
-    "rootDir": "../.."
+    "rootDir": "../../client"
   },
   "dependencies": {
     "@babel/core": "^7.10.4",
