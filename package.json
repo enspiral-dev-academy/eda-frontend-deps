@@ -1,14 +1,14 @@
 {
   "name": "eda-frontend-deps",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "A dependency repo of frontend libraries used in EDA's exercies and apps",
   "author": "EDA",
   "license": "ISC",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch",
+    "test:watch": "jest --watchAll",
     "build": "webpack",
-    "build:watch": "webpack --watchAll"
+    "build:watch": "webpack --watch"
   },
   "bin": {
     "test-frontend": "./jest",
