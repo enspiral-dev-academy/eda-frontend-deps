@@ -1,6 +1,6 @@
 {
   "name": "eda-frontend-deps",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A dependency repo of frontend libraries used in EDA's exercies and apps",
   "keywords": [
     "frontend"
@@ -8,8 +8,8 @@
   "author": "EDA",
   "license": "ISC",
   "scripts": {
-    "test": "jest --verbose ../..",
-    "test:watch": "jest --verbose --watch ../..",
+    "test": "jest --verbose ../../*",
+    "test:watch": "jest --verbose --watch ../../*",
     "build": "webpack",
     "build:watch": "webpack --watch"
   },
