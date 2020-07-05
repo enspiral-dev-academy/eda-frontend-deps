@@ -1,10 +1,7 @@
 {
   "name": "eda-frontend-deps",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "A dependency repo of frontend libraries used in EDA's exercies and apps",
-  "keywords": [
-    "frontend"
-  ],
   "author": "EDA",
   "license": "ISC",
   "scripts": {
@@ -19,6 +16,17 @@
     "build-frontend": "./webpack",
     "watch-frontend-build": "./webpack-watch"
   },
+  "homepage": "https://github.com/enspiral-dev-academy/eda-frontend-deps#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enspiral-dev-academy/eda-frontend-deps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/enspiral-dev-academy/eda-frontend-deps/issues"
+  },
+  "keywords": [
+    "frontend"
+  ],
   "jest": {
     "verbose": true,
     "rootDir": "../.."
