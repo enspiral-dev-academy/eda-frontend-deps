@@ -1,15 +1,23 @@
 {
   "name": "eda-frontend-deps",
-  "version": "0.1.0",
-  "description": "A monorepo of frontend libraries used in our exercies and apps",
+  "version": "0.2.0",
+  "description": "A dependency repo of frontend libraries used in EDA's exercies and apps",
   "keywords": [
     "frontend"
   ],
   "author": "EDA",
   "license": "ISC",
+  "scripts": {
+    "test": "jest --verbose ../..",
+    "test:watch": "jest --verbose --watch ../..",
+    "build": "webpack --config ../../client/webpack.config.js",
+    "build:watch": "webpack --config ../../client/webpack.config.js --watch"
+  },
   "bin": {
-    "jest": "node_modules/jest/bin/jest.js",
-    "webpack": "node_modules/webpack-cli/bin/cli.js"
+    "test-frontend": "./jest",
+    "watch-frontend-tests": "./jest-watch",
+    "build-frontend": "./webpack",
+    "watch-frontend-build": "./webpack-watch"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
