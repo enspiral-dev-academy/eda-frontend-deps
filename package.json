@@ -8,8 +8,8 @@
   "author": "EDA",
   "license": "ISC",
   "scripts": {
-    "test": "jest --verbose ../../*",
-    "test:watch": "jest --verbose --watch ../../*",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "build": "webpack",
     "build:watch": "webpack --watch"
   },
@@ -30,6 +30,10 @@
       "@babel/plugin-transform-regenerator",
       "@babel/plugin-transform-runtime"
     ]
+  },
+  "jest": {
+    "verbose": true,
+    "rootDir": "../.."
   },
   "dependencies": {
     "@babel/core": "^7.10.4",
