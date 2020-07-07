@@ -1,2 +1,2 @@
 cd node_modules/eda-frontend-deps
-npm run test:watch
+npm run watch:tests

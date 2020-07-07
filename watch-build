@@ -1,2 +1,2 @@
 cd node_modules/eda-frontend-deps
-npm run build:watch
+npm run watch:build
