@@ -1,20 +1,22 @@
 {
   "name": "eda-frontend-deps",
-  "version": "0.2.9",
+  "version": "0.3.0",
   "description": "A dependency repo of frontend libraries used in EDA's exercies and apps",
   "author": "EDA",
   "license": "ISC",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch",
     "build": "webpack",
-    "build:watch": "webpack --watch"
+    "lint": "eslint ../../client",
+    "watch-tests": "jest --watch",
+    "watch:build": "webpack --watch"
   },
   "bin": {
-    "test-frontend": "./jest",
-    "watch-frontend-tests": "./jest-watch",
-    "build-frontend": "./webpack",
-    "watch-frontend-build": "./webpack-watch"
+    "test-frontend": "./test",
+    "build-frontend": "./build",
+    "lint-frontend": "./lint",
+    "watch-frontend-tests": "./watch-tests",
+    "watch-frontend-build": "./watch-build"
   },
   "homepage": "https://github.com/enspiral-dev-academy/eda-frontend-deps#readme",
   "repository": {
