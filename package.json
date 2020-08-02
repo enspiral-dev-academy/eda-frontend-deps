@@ -1,6 +1,6 @@
 {
   "name": "eda-frontend-deps",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "A dependency repo of frontend libraries used in EDA's exercies and apps",
   "author": "EDA",
   "license": "ISC",

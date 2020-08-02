@@ -1,23 +1,23 @@
-const path = require('path')
+const path = require("path");
 
 module.exports = {
-  mode: 'development',
-  entry: path.join(__dirname, '../../client/index.js'),
+  mode: "development",
+  entry: path.join(__dirname, "../../client/index.js"),
   output: {
-    path: path.join(__dirname, '../../server/public'),
-    filename: 'bundle.js'
+    path: path.join(__dirname, "../../server/public"),
+    filename: "bundle.js",
   },
   module: {
     rules: [
       {
-        loader: 'babel-loader',
+        loader: "babel-loader",
         test: /\.jsx?$/,
-        exclude: /node_modules/
-      }
-    ]
+        exclude: /node_modules/,
+      },
+    ],
   },
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: [".js", ".jsx"],
   },
-  devtool: 'source-map'
-}
+  devtool: "source-map",
+};
