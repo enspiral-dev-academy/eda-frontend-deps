@@ -1,6 +1,6 @@
 {
   "name": "eda-frontend-deps",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "A dependency repo of frontend libraries used in EDA's exercies and apps",
   "author": "EDA",
   "license": "ISC",
@@ -18,6 +18,7 @@
     "watch-frontend-tests": "./watch-tests",
     "watch-frontend-build": "./watch-build"
   },
+  "main": "index.js",
   "homepage": "https://github.com/enspiral-dev-academy/eda-frontend-deps#readme",
   "repository": {
     "type": "git",

@@ -1,7 +1,1 @@
-const config = require("./eslintrc.json");
-
-module.exports = {
-  configs: {
-    default: config,
-  },
-};
+module.exports = require("./eslintrc.json");
